@@ -72,7 +72,7 @@ def pinyin2phoneme(src):
                 phs = shengyun2ph_dict[fuyuan].split()
                 phs.append(diao2ph_dict[diao])
             else:
-                phs = []
+                phs = py_errors(py)
         else:
             phs = []
             for w in py:
