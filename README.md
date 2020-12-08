@@ -11,7 +11,7 @@ pip install -U phkit
 ```
 
 #### 版本
-v0.2.5
+v0.2.6
 
 ### pinyinkit
 文本转拼音的模块，依赖python-pinyin，jieba，phrase-pinyin-data模块。
@@ -39,10 +39,11 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 标点：
 ! ? . , ; : " # ( )
-注：!=!！|?=?？|.=.。|,=,，、|;=;；|:=:：|"="“|#= 　	|(=(（[［{｛【<《|)=)）]］}｝】>》
+注：!=!！|?=?？|.=.。|,=,，、|;=;；|:=:：|"="“|#=# 　	|(=(（[［{｛【<《|)=)）]］}｝】>》
 
 预留：
 w y 0 6 7 8 9
+注：w=%|y=$|0=0|6=6|7=7|8=8|9=9
 
 其他：
 _ ~  - *
@@ -91,6 +92,9 @@ hyperparameter. Some cleaners are English-specific. You'll typically want to use
      the symbols in symbols.py to match your data).
 
 ### 历史版本
+
+#### v0.2.6
+- 所有中文音素都能被映射到。
 
 #### v0.2.5
 - 修正拼音转音素的潜在bug。
