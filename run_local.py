@@ -14,6 +14,7 @@ def run_text2phoneme():
     from phkit.chinese.sequence import text2phoneme, text2sequence
     text = "汉字转音素，TTS：《Text to speech》。"
     text = "岂有此理"
+    text = "我的儿子玩会儿"
     out = text2phoneme(text)
     print(out)
     # ['h', 'an', '4', '-', 'z', 'iy', '4', '-', 'zh', 'uan', '3', '-', 'ii', 'in', '1', '-', 's', 'u', '4', '-', ',',

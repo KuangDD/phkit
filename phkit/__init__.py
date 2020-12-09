@@ -14,7 +14,7 @@ phoneme toolkit: 音素相关的文本处理工具箱。
 pip install -U phkit
 ```
 """
-__version__ = "0.2.6"
+__version__ = "0.2.7"
 
 version_doc = """
 #### 版本
@@ -24,7 +24,7 @@ v{}
 history_doc = """
 ### 历史版本
 
-#### v0.2.6
+#### v0.2.7
 - 所有中文音素都能被映射到。
 
 #### v0.2.5

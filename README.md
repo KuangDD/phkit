@@ -11,7 +11,7 @@ pip install -U phkit
 ```
 
 #### 版本
-v0.2.6
+v0.2.7
 
 ### pinyinkit
 文本转拼音的模块，依赖python-pinyin，jieba，phrase-pinyin-data模块。
@@ -93,7 +93,7 @@ hyperparameter. Some cleaners are English-specific. You'll typically want to use
 
 ### 历史版本
 
-#### v0.2.6
+#### v0.2.7
 - 所有中文音素都能被映射到。
 
 #### v0.2.5

@@ -7,7 +7,7 @@ from .core import lazy_pinyin, pinyin, slug, Style, initialize
 
 # 兼容0.1.0之前的版本。
 # 音调：5为轻声
-_diao_re = re.compile(r"([012345]$)")
+_diao_re = re.compile(r"([12345]$)")
 
 
 def text2pinyin(text, errors=None):
@@ -33,7 +33,7 @@ def split_pinyin(py):
     parts = _diao_re.split(py)
     if len(parts) == 1:
         fuyuan = py
-        diao = ""
+        diao = "5"
     else:
         fuyuan = parts[0]
         diao = parts[1]
